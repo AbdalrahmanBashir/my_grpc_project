@@ -42,13 +42,6 @@ Testing with the C++ Client:
 Testing with grpcurl:
 grpcurl -plaintext -d '{"user":{"username":"alice","password":"s3cr3t","email":"alice@example.com","age":28}}' localhost:50051 usersystem.UserRegistration/RegisterUser
 
-Project Layout:
-├── CMakeLists.txt
-├── protos/
-│   └── user_registration.proto
-├── main.cpp          # server implementation
-└── build/            # CMake output
-
 Extending This Example:
 - Enable TLS by switching to SslServerCredentials()
 - Switch to async APIs for higher throughput
