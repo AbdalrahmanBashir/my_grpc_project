@@ -1,6 +1,9 @@
 # my_grpc_project  
+
+
+<img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/df30269d-be84-4406-97c2-f6c004e279d8" />
 <img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/ed18ec9d-7824-401c-a567-9a676de841ee" />
-![gRPC Logo](<img width="100" height="100" alt="Image" src="https://github.com/user-attachments/assets/ed18ec9d-7824-401c-a567-9a676de841ee" />)  
+
 
 A simple C++ gRPC service for user registration.  
 Implements a **UserRegistration** RPC that accepts a **RegisterRequest** containing a **User** message and returns a **RegisterResponse** indicating success or failure.
