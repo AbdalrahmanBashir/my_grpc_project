@@ -32,7 +32,7 @@ This generates executable my_grpc_project – the gRPC server
 
 Running the Server:
 cd build
-./user_reg_server
+./my_grpc_project
 # Server listening on 0.0.0.0:50051
 
 Testing with the C++ Client:
